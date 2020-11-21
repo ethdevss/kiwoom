@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "kiwoom"
+version = "0.1.0"
+description = ""
+authors = ["ethdevss <ethdevss@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+certifi = "2020.4.5.1"
+cffi = "1.14.0"
+cryptography = "2.9.2"
+decorator = "4.4.2"
+future = "0.18.2"
+mongoengine = "0.20.0"
+numpy = "1.18.4"
+pandas = "1.0.4"
+pycparser = "2.20"
+pymongo = "3.10.1"
+PyQt5 = "5.15.0"
+PyQt5-stubs = "5.14.2.2"
+python-dateutil = "2.8.1"
+python-telegram-bot = "^13.0"
+pytz = "2020.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
